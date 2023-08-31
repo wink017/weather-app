@@ -1,0 +1,44 @@
+body {
+    font-family: 'DM Serif Display', serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(IMG_3261.jpg);
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .weather-container {
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(234, 226, 226, 0.1);
+    color: aliceblue;
+  }
+  
+  
+
+  .location {
+    margin-bottom: 10px;
+  }
+  
+  #city {
+    padding: 5px;
+    width: 150px;
+  }
+  
+  #temperature {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #description {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
